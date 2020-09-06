@@ -1,0 +1,21 @@
+    if circular(p): # this means I will check 13 and append. When I get to 31 I will check 31 and append. Under the hood, I already had to check 31. This duplicates work, and I'd like to change that, see def circular
+
+    if n % x == 0: # why is 1 % 2 == 0 coming out as True? :(
+
+    # if primeSlow(x, primes): only goes to 2. maybe it doesn't update primes in this for loop, despite updating it in primeSlow
+
+      s += tup[i] # can I declare and operate in the same line? No. # UnboundLocalError: local variable 's' referenced before assignment
+
+  for perm in perms_as_numbers:
+    # how do I skipt the first one?
+
+  # totalPermutationsChecked += len(permutations) # I hope this just counts the items in the list, not the items in the tuples in the list
+  # but this will count permutations of 13 and later permutations of 31 -- which is good to know since that's the path my code took earlier. I just hope to stop doing that ASAP.
+
+# in a set, the lookup is O(1), but is that only if the item exists in the set? how about x not in mySet?
+
+How to share the set primes with the function circular? Use a global variable, but that's not cool. Pass it into circular, but that will copy it every time I call circular.
+
+I would love to rewatch my videos, and ask questions about architecture, design, imagining if I were working collaborativvely, how to write more object oriented in a smarter way that allows writing a function once and reusing it, but then if it isn't working, how to deal with that, etc.
+
+  return rotations # will this be copied when it is returned? Will it return a reference or value ..?

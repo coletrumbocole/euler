@@ -1,0 +1,3 @@
+* refactor circular(n)
+  # some n have already been checked because I check all permutations. I'd like to do it faster, get rid of double checking.
+  

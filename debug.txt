@@ -1,0 +1,17 @@
+  for p in primes:
+    # debug = "Is "
+    # debug += str(p)
+    # debug += " circular? "
+    # print(debug)
+
+
+  # debug = "permutations of " + n_str + ": " + str(perms_as_numbers)
+  # print(debug)
+    # debug = "Is " + str(perm) + " prime? "
+    # print(debug)
+    if not(perm in primes):
+      # print("no")
+      return False
+    # else:
+    #   print("yes")
+  return True
